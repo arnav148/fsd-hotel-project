@@ -1,0 +1,90 @@
+
+
+.navbar
+{
+    margin-top: 10px;
+    margin-left: 500px;
+    padding: 2rem;
+    word-spacing: 15px;
+    font-size:18px;
+    
+    
+}
+
+h1
+{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size:72px;
+}
+
+h2{
+    margin-top:-60px;
+    margin-left: 50px;
+    font-size:72px;
+}
+
+p1
+{
+    margin-top:-30px;
+    margin-left: 50px;
+    font-size:20px;
+}
+p2
+{
+    margin-top:-30px;
+    margin-left: 50px;
+    font-size:20px;
+}
+p3
+{
+    margin-top:-30px;
+    margin-left: 50px;
+    font-size:20px;
+}
+
+.button
+{   
+    width:120px;
+    height:40px;
+    border: 2px solid orangered;
+    margin-left: 30%;
+    font-size: 18px;
+}
+
+.button1
+{
+    width:150px;
+    height:50px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid white;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 50px;
+    
+}
+
+.button1:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+
+  .button:hover {
+    background-color: #000a14;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .navbar a:hover {
+    background-color: white;
+    color: orangered;
+  }
+
+  .room
+  {
+    margin-top:-470px;
+    margin-left: 630px;
+  }
+
