@@ -6,29 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
 </head>
-<body style="background-color:black;">
-    <header class="header">
-        
+<body>
+    <header class="header fixed-top">
 
-        <i class='bx bx-menu' id="menu-icon"></i>
-
-        <nav class="navbar">
-            <a href="#home" class="active" style="color:orangered;">Home</a>
-            <a href="#about" style="color:gray;">About</a>
-            <a href="#rooms" style="color:gray;">Rooms</a>
-            <a href="#sales" style="color:gray;">Sales</a>
-            <a href="#blog" style="color:gray;">Blog</a>
-            <a href="#contact" style="color:gray;">Contact</a>
-            <button class="button" >Book Now</button>
-            
-
-        </nav>
-        
-    </header>
+        <div class="container">
+     
+           <div class="row align-items-center justify-content-between">
+     
+              <a href="#" class="logo" style="color: gray;"><span>HOTELO</span></a>
+     
+              <nav class="nav">
+                 <a href="#home" style="color: orangered;">Home</a>
+                 <a href="#about">about</a>
+                 <a href="#sales">sales</a>
+                 <a href="#room">room</a>
+                 <a href="#content">content</a>
+                 <a href="#blogs">blogs</a>
+                 <button class="button">Book Now</button>
+              </nav>
+     
+              <div id="menu-btn" class="fas fa-bars"></div>
+     
+           </div>
+     
+        </div>
+     
+     </header>
     
-    <section class="home" id="home">
-        <div class="home-content">
+    <section class="home" id="home" style="background-color: black;">
+        <div class="home-content"><br><br><br><br><br>
             <h1 style="color:gray;"><b> Gables<br>Grand Plaza</b></h1>
             <h2 style="color:orangered";"><b>Apartments</b></h2>
             <p1 style="color: gray;">Find a home or space from our search. space<br></p1>
@@ -37,7 +46,7 @@
             <p3 style="color:gray;">property type and price range</p3>
             <br><br><br>
             <button class="button1" >Know More</button>
-            <div class="room">
+            <div class="room"><br><br><br><br><br>
                 <img src ="images/room.png" >
             </div>
             
@@ -45,5 +54,39 @@
         </div>
 
     </section>
+    <section class="Why" id="Why" style="background-color:white;">
+        <div class="why book"><br><br>
+            <h3 style="color: black;">Why Book <b>With Us?</b></h3><br>
+            <p class="p4" style="color: gray;">Start planning the trip of your dreams With
+            the help of 1000+ articles on <br>
+            trivago magazine, ranging from
+        </p>
+        </div>
+    </section>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="icon1">
+                <img src="images/icon1.PNG">
+            </div>
+        </div>
+        <div class="grid-item" style="background-color: orangered;">
+            <div class="icon2">
+                <img src="images/icon2.PNG">
+            </div><br>
+            <h4 style="color: white;"><strong>Our Price Guarantee</strong>
+                
+            </h4>
+        </div>
+        <div class="grid-item">
+            <div class="icon3">
+                <img src="images/icon1.PNG">
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="icon4">
+                <img src="images/icon1.PNG">
+            </div>
+        </div>
+      </div>
 </body>
 </html>
