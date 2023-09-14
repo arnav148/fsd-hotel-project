@@ -1,0 +1,44 @@
+
+#navbarTogglerDemo01 > ul > li:nth-child(1){
+    margin-left: 40px;
+    font-size: 18px;
+}
+#navbarTogglerDemo01 > ul > li:nth-child(2){
+    margin-left: 40px;
+    font-size: 18px;
+}
+#navbarTogglerDemo01 > ul > li:nth-child(3){
+    margin-left: 40px;
+    font-size: 18px;
+}
+#navbarTogglerDemo01 > ul > li:nth-child(4){
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+#navbarTogglerDemo01 > ul > li:nth-child(5){
+    margin-left: 40px;
+    font-size: 18px;
+}
+#navbarTogglerDemo01 > ul > li:nth-child(6){
+    margin-left: 40px;
+    font-size: 18px;
+}
+#navbarTogglerDemo01 > ul > li:nth-child(7){
+    margin-left: 40px;
+    font-size: 18px;
+}
+.btn{
+    background-color: white;
+    border-color: orangered;
+    color: #040010;
+}
+.btn:hover{
+    background-color: #040010;
+    color: white;
+    border-color: white;
+
+}
+.navbar{
+    background-color: #040010;
+}
